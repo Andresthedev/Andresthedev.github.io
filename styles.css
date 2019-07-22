@@ -1,0 +1,18 @@
+.container {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+   
+}
+.img-about-me {
+    margin-top: 5%;
+    width: 76%;
+    height: 80%;
+}
+
+.about-me {
+    margin-top: 5%;
+}
+ 
+p {
+    background-color:rgba(223, 200, 200, 0.3);
+}
