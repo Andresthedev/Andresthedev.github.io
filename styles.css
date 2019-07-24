@@ -1,8 +1,14 @@
 .container {
     width: 100%;
     font-family: 'Roboto', sans-serif;
-   
+
 }
+body{
+    background-color: #343a40;
+    color: whitesmoke;
+}
+
+
 .img-about-me {
     margin-top: 5%;
     width: 76%;
@@ -13,8 +19,30 @@
     margin-top: 5%;
 }
  
-p {
+/* p {
     background-color:rgba(223, 200, 200, 0.3);
+} */
+
+
+
+ /* display this row with flex and use wrap (= respect columns' widths) */
+
+.row-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/* vertical spacing between columns */
+
+[class*="col-"] {
+  margin-bottom: 30px;
+}
+
+.content {
+  height: 100%;
+  padding: 20px 20px 10px;
+  color: whitesmoke;
 }
 
 
