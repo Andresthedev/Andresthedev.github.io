@@ -43,12 +43,12 @@
   
   @keyframes neon2 {
     from {
-        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de,
-          0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+        text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 15px #000000, 0 0 20px #ebebeb,
+          0 0 25px #ffffff, 0 0 30px #ffffff, 0 0 35px #ffffff, 0 0 40px #ffffff;
       }
       to {
-        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de,
-          0 0 35px #ff00de, 0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 75px #ff00de;
+        text-shadow: 0 0 2px #000000, 0 0 4px #000000, 0 0 6px #000000, 0 0 8px #ebebeb,
+          0 0 10px #ffffff, 0 0 12px #ffffff, 0 0 14px #ffffff, 0 0 16px #ffffff;
       }
     }
 
