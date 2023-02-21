@@ -13,7 +13,7 @@ body {
   }
   
   h1 {
-    color: #ff6363;
+    color: #000000;
     font-weight: bold;
   }
   
@@ -124,10 +124,11 @@ body {
   .header-links a {
     color: #757575;
     -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
   }
   
   .header-links a:hover {
-    color: #ff6363 !important;
+    color: #000000 !important;
   }
   
   /* slide out nav menu styles */
@@ -218,13 +219,14 @@ body {
   /* bouncing arrow */
   
   .fa-chevron-down {
-    color: #ff6363 !important;
+    color: #ffffff !important;
     bottom: 10px;
     margin-left: -30px;
     cursor: pointer;
     position: absolute;
     opacity: 0;
     -webkit-transition: 1.2s ease;
+    transition: 1.2s ease;
   }
   
   /* Scroll down indicator (bouncing) */
@@ -448,7 +450,7 @@ body {
     animation-name: shake;
   }
   
-  /* input field styles */
+  /* old input field styles */
   
   .contact-form {
     padding: 0px 15px 0px 15px;
@@ -634,7 +636,7 @@ body {
     animation: 1s blink step-end infinite;
   }
   
-  @keyframes "blink" {
+  @keyframes blink {
     from,
     to {
       color: transparent;
@@ -654,7 +656,7 @@ body {
     }
   }
   
-  @-webkit-keyframes "blink" {
+  @-webkit-keyframes blink {
     from,
     to {
       color: transparent;
@@ -664,7 +666,7 @@ body {
     }
   }
   
-  @-ms-keyframes "blink" {
+  @-ms-keyframes blink {
     from,
     to {
       color: transparent;
@@ -674,7 +676,7 @@ body {
     }
   }
   
-  @-o-keyframes "blink" {
+  @-o-keyframes blink {
     from,
     to {
       color: transparent;
