@@ -141,10 +141,12 @@ h6 {
   margin-bottom: 0;
   top: 0;
   transition: top 0.3s;
-  position: relative;
+  position: absolute;
+  
 }
 .navbar-header .navbar-toggle {
   margin-top: 12px;
+  
 }
 .navbar-header .navbar-brand {
   letter-spacing: -0.03em;
