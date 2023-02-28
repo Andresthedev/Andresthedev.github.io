@@ -389,9 +389,9 @@ a.btn-default:hover:after { width: 100%; } */
   z-index:2;
 } */
 .brand{
-  font-size: 5rem;
+  font-size: 3rem;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 600;
   opacity: .3;
   letter-spacing: -12px;
 }
