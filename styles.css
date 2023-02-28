@@ -225,7 +225,7 @@ h6 {
   background-size: cover;
   text-shadow: 2px 1px 0 rgba(255, 255, 255, 0.797);
 }
-#home h1 {
+#home h1, .brand {
   font-family: "Advent Pro bold", sans-serif;
   font-size: 44px;
   color: #000;
@@ -235,7 +235,7 @@ h6 {
   line-height: 90px;
   margin-top: 60px;
 }
-#home h1:after {
+#home h1, .brand:after {
   border-bottom: 1px solid #00000000;
 }
 #home h5 {
