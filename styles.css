@@ -135,12 +135,13 @@ h6 {
 /*--- NAVBAR ---*/
 .navbar-default {
   font-family: "Montserrat", serif;
-  background: #fbfbfb;
-  border-bottom-color: #dfdfdf;
+  background: #ffffff00;
+  border-bottom-color: #dfdfdf00;
   height: 60px;
   margin-bottom: 0;
   top: 0;
   transition: top 0.3s;
+  position: relative;
 }
 .navbar-header .navbar-toggle {
   margin-top: 12px;
@@ -152,20 +153,21 @@ h6 {
   font-size: 36px;
   line-height: 0px;
   font-weight: 700;
-  color: #b5b5b5;
+  color: #b5b5b500 transparent;
   white-space: nowrap;
 }
 .navbar-default .navbar-brand:focus {
   color: #111;
 }
 .navbar-default .navbar-nav {
-  background: #ffffff;
+  background: #ffffff00 transparent;
   margin-top: 0;
+  text-align: center;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #222;
+  color: #222222 ;
   padding: 10px;
-  border-bottom: 1px solid #dfdfdf;
+  border-bottom: 1px  #dfdfdf transparent;
 }
 .navbar-default .navbar-nav > li > a.selected {
   color: #86cefb;
@@ -176,7 +178,7 @@ h6 {
   .navbar-nav
   > li
   > a:hover {
-  background-color: #dfdfdf;
+  background-color: #dfdfdf00 transparent;
 }
 .navbar-default .navbar-brand:hover {
   color: #86cefb;
@@ -219,7 +221,7 @@ h6 {
 
 /*--- HOME ---*/
 #home {
-  background: url("https://images.unsplash.com/photo-1637625854255-d893202554f4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80")
+  background: url("https://images.unsplash.com/photo-1575633240877-edd68950f4a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80")
     no-repeat center center fixed;
   background-size: cover;
   text-shadow: 2px 1px 0 rgba(235, 235, 235, 0.797);
@@ -328,7 +330,7 @@ h6 {
 
 /*--- CONTACT ---*/
 #contact {
-  background: url("https://images.unsplash.com/photo-1637625854255-d893202554f4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80")
+  background: url("https://images.unsplash.com/photo-1575633240877-edd68950f4a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80")
     no-repeat top center fixed;
   background-size: cover;
   text-align: center;
