@@ -12,7 +12,7 @@ h5,
 h6 {
   font-family: "Montserrat", serif;
   font-weight: 700;
-  color: #1a1a1a;
+  color: #9e9e9e;
 }
 .content-section {
   min-height: 100vh;
@@ -92,6 +92,47 @@ h6 {
   }
 }
 
+/* SIDE BAR */
+.sidenav {
+  width: 60px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  background-color: grey transparent; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 200px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 18px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: flexbox;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #86cefb;
+}
+
+/* Style page content */
+.main {
+  margin-right: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+
 /*--- NAVBAR ---*/
 .navbar-default {
   font-family: "Montserrat", serif;
@@ -99,6 +140,8 @@ h6 {
   border-bottom-color: #dfdfdf;
   height: 60px;
   margin-bottom: 0;
+  top: 0;
+  transition: top 0.3s;
 }
 .navbar-header .navbar-toggle {
   margin-top: 12px;
@@ -110,7 +153,7 @@ h6 {
   font-size: 36px;
   line-height: 0px;
   font-weight: 700;
-  color: #111;
+  color: #b5b5b5;
   white-space: nowrap;
 }
 .navbar-default .navbar-brand:focus {
@@ -329,4 +372,52 @@ a.btn-default:hover:after { width: 100%; } */
   -ms-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+}
+
+
+/* TEXT */
+
+/* .loader{
+  height: 50vh;
+  width: 100%;
+  background: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  pointer-events:none;
+  z-index:2;
+} */
+.brand{
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  opacity: .3;
+  letter-spacing: -12px;
+}
+.space{
+  padding: 15px;
+}
+.brand span{
+  display: block;
+  float: left;
+  margin: .5rem;
+  opacity:1;
+  transform-origin: center;
+  animation: move 5s linear;
+  animation-direction: alternate;
+}
+@keyframes move{
+  0%{
+    transform: scale(0);
+    opacity:0;
+  }
+  50%{
+    transform: scale(1.3);
+    opacity:1;
+  }
+  100%{
+    transform: scale(1);
+    opacity:1;
+  }
 }
